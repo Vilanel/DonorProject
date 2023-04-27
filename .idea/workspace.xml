@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="52f12857-b5a3-4409-9ad2-99e1464e9988" name="Changes" comment="First commit" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2OZKecOPgolyVSbflZ9L46ddLfp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/BlueSheets/bluesheetsweb",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "ts.external.directory.path": "D:\\KPI\\4_2\\Диплом\\project\\nest-app\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\KPI\4_2\Диплом\project\web-app\web" />
+      <recent name="D:\KPI\4_2\Диплом\project\web-app\web\src" />
+      <recent name="D:\KPI\4_2\Диплом\project\react-app\src\ra-loopback" />
+      <recent name="D:\KPI\4_2\Диплом\project\nest-app\src\enums" />
+      <recent name="D:\KPI\4_2\Диплом\project\nest-app\src\enums\users" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\KPI\4_2\Диплом\project\react-app" />
+      <recent name="D:\KPI\4_2\Диплом\project\react-app\src" />
+      <recent name="D:\KPI\4_2\Диплом\project\react-app\src\FormikForm" />
+      <recent name="D:\KPI\4_2\Диплом\project\react-app\src\redux\actions\generalActions" />
+      <recent name="D:\KPI\4_2\Диплом\project\web-app\web\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/react-app/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start:debug" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/nest-app/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start:debug" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start:dev" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/nest-app/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start:dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.start:dev" />
+      <item itemvalue="npm.start" />
+      <item itemvalue="npm.start:debug" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start:debug" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="52f12857-b5a3-4409-9ad2-99e1464e9988" name="Changes" comment="" />
+      <created>1681762759785</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681762759785</updated>
+      <workItem from="1681762761049" duration="2493000" />
+      <workItem from="1681841127494" duration="4550000" />
+      <workItem from="1681849236788" duration="4467000" />
+      <workItem from="1681887253263" duration="5000" />
+      <workItem from="1681937573106" duration="2610000" />
+      <workItem from="1682015769547" duration="4451000" />
+      <workItem from="1682100585905" duration="8101000" />
+      <workItem from="1682163454411" duration="416000" />
+      <workItem from="1682163883736" duration="5299000" />
+      <workItem from="1682245888785" duration="5637000" />
+      <workItem from="1682251943547" duration="21114000" />
+      <workItem from="1682278360228" duration="1278000" />
+      <workItem from="1682319491023" duration="12000" />
+      <workItem from="1682362854576" duration="11893000" />
+      <workItem from="1682408491142" duration="16000" />
+      <workItem from="1682447328395" duration="9948000" />
+      <workItem from="1682492546462" duration="131000" />
+      <workItem from="1682533332249" duration="6252000" />
+      <workItem from="1682585410813" duration="14000" />
+      <workItem from="1682616388263" duration="2821000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+  </component>
+</project>
