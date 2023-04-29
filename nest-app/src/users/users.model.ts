@@ -64,7 +64,7 @@ export class User extends Model<User, UserCreationAttrs> {
 
     @ApiProperty({example: 'ADMIN', description: 'User role'})
     @Column({
-        type: DataType.STRING,
+        type: DataType.ENUM(...Object.values(Roles)),
         allowNull: false,
     })
     role: string;

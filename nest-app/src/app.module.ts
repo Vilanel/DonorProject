@@ -4,6 +4,8 @@ import { UsersModule } from './users/users.module';
 import {ConfigModule} from '@nestjs/config';
 import {User} from './users/users.model';
 import {AuthModule} from "./auth/auth.module";
+import {DonationPointsModule} from "./donation-points/donation-points.module";
+import {DonationPoint} from "./donation-points/donation-points.model";
 
 @Module({
     controllers: [],
@@ -19,11 +21,12 @@ import {AuthModule} from "./auth/auth.module";
             username: process.env.POSTGRES_USER,
             password: process.env.POSTGRES_PASSWORD.toString(),
             database: process.env.POSTGRES_DB,
-            models: [User],
+            models: [User, DonationPoint],
             autoLoadModels: true,
         }),
         UsersModule,
         AuthModule,
+        DonationPointsModule,
     ],
 })
 export class AppModule {}

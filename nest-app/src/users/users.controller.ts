@@ -28,6 +28,4 @@ export class UsersController {
     async getAll() {
         return await this.userService.getAllUsers();
     }
-
-
 }

@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52f12857-b5a3-4409-9ad2-99e1464e9988" name="Changes" comment="Web commit">
-      <change afterPath="$PROJECT_DIR$/react-app/src/AdminRequest/AdminRequest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-app/src/Login/RegisterLoginDialogs.js" afterDir="false" />
+    <list default="true" id="52f12857-b5a3-4409-9ad2-99e1464e9988" name="Changes" comment="Feat: add mapbox library, edit main page">
+      <change afterPath="$PROJECT_DIR$/nest-app/src/donation-points/donation-points.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nest-app/src/donation-points/donation-points.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nest-app/src/donation-points/donation-points.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nest-app/src/donation-points/donation-points.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nest-app/src/donation-points/enums.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nest-app/src/donation-points/interfaces.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nest-app/src/auth/jwt-auth.guard.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nest-app/src/auth/jwt-auth.guard.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nest-app/src/exceptions/validation.exception.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nest-app/src/exceptions/validation.exception.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-app/assets/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/src/assets/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nest-app/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nest-app/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nest-app/src/users/users.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nest-app/src/users/users.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nest-app/src/users/users.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nest-app/src/users/users.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-app/src/AdminRequest/AdminRequest.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/src/AdminRequest/AdminRequest.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-app/src/Main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/src/Main/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-app/src/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/src/Navbar/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-app/src/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/src/constants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-app/src/lang.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/src/lang.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-app/src/components/FormikTextField.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/src/components/FormikTextField.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +135,7 @@
       <workItem from="1682616388263" duration="2821000" />
       <workItem from="1682619248588" duration="6805000" />
       <workItem from="1682667236538" duration="12000" />
-      <workItem from="1682772090355" duration="918000" />
+      <workItem from="1682772090355" duration="4139000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1682619319274</created>
@@ -152,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682619386330</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Feat: add mapbox library, edit main page">
+      <created>1682773964173</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682773964173</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +178,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
     <MESSAGE value="Web commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Web commit" />
+    <MESSAGE value="Feat: add mapbox library, edit main page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: add mapbox library, edit main page" />
   </component>
 </project>
