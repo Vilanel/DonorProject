@@ -24,7 +24,6 @@ const renderEntireTree = () => {
 renderEntireTree();
 
 store.subscribe(() => {
-    console.log(store.getState())
     renderEntireTree();
 })
 

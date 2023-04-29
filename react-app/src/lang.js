@@ -90,7 +90,7 @@ export const lang = {
         },
         profile: {
             en: 'Profile',
-            uk: 'До акаунту',
+            uk: 'Профіль',
         },
         donor_info: {
             en: 'Information for donors',
@@ -99,6 +99,10 @@ export const lang = {
         join_the_project: {
             en: 'Join us',
             uk: 'Долучитись до проєкту',
+        },
+        thank_you: {
+            en: 'Thank you for joining',
+            uk: 'Дякуємо що долучились',
         },
         join_the_project_helps: {
             en: 'Joining the project will help fast',

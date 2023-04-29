@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52f12857-b5a3-4409-9ad2-99e1464e9988" name="Changes" comment="First commit" />
+    <list default="true" id="52f12857-b5a3-4409-9ad2-99e1464e9988" name="Changes" comment="Web commit">
+      <change afterPath="$PROJECT_DIR$/react-app/src/AdminRequest/AdminRequest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-app/src/Login/RegisterLoginDialogs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nest-app/src/auth/jwt-auth.guard.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nest-app/src/auth/jwt-auth.guard.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nest-app/src/exceptions/validation.exception.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nest-app/src/exceptions/validation.exception.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-app/assets/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/src/assets/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-app/src/Main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/src/Main/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-app/src/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/src/Navbar/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-app/src/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/src/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-app/src/lang.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/src/lang.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,18 +34,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/BlueSheets/bluesheetsweb",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "ts.external.directory.path": "D:\\KPI\\4_2\\Диплом\\project\\nest-app\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/BlueSheets/bluesheetsweb&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\KPI\\4_2\\Диплом\\project\\nest-app\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\KPI\4_2\Диплом\project\web-app\web" />
@@ -40,8 +57,8 @@
       <recent name="D:\KPI\4_2\Диплом\project\nest-app\src\enums\users" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\KPI\4_2\Диплом\project\react-app" />
       <recent name="D:\KPI\4_2\Диплом\project\react-app\src" />
+      <recent name="D:\KPI\4_2\Диплом\project\react-app" />
       <recent name="D:\KPI\4_2\Диплом\project\react-app\src\FormikForm" />
       <recent name="D:\KPI\4_2\Диплом\project\react-app\src\redux\actions\generalActions" />
       <recent name="D:\KPI\4_2\Диплом\project\web-app\web\src" />
@@ -117,7 +134,25 @@
       <workItem from="1682533332249" duration="6252000" />
       <workItem from="1682585410813" duration="14000" />
       <workItem from="1682616388263" duration="2821000" />
+      <workItem from="1682619248588" duration="6805000" />
+      <workItem from="1682667236538" duration="12000" />
+      <workItem from="1682772090355" duration="918000" />
     </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1682619319274</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682619319275</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Web commit">
+      <created>1682619386330</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682619386330</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +171,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="Web commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Web commit" />
   </component>
 </project>

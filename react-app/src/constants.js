@@ -8,4 +8,7 @@ export const authResource = 'auth';
 export const registrationEndpoint = 'registration';
 export const loginEndpoint = 'login';
 
+export const roleNameAdmin = 'ADMIN';
+export const roleNameDonor = 'DONOR';
+
 export const errorAlertTimeout = 2000;

@@ -5,21 +5,20 @@ import Toolbar from "@mui/material/Toolbar";
 import IconButton from "@mui/material/IconButton";
 import {AccountCircle} from "@mui/icons-material";
 import {connect} from "react-redux";
+import {useNavigate} from "react-router-dom";
 
 import {navbar_toolbar} from "./NavbarStyles";
-import CustomDialog from "../CustomDialog/CustomDialog";
 import LanguageComponent from "./LanguageComponent";
-import {lang} from "../lang";
 import {changeLanguageAction} from "../redux/actions/general";
-import LoginForm from "../Login/LoginForm";
-import RegistrationForm from "../Login/RegistrationForm";
 import ProfileListInfo from "../Profile/ProfileListInfo";
+import RegisterLoginDialogs from "../Login/RegisterLoginDialogs";
 
 
 const Navbar = ({currentLang, changeLanguage, token, role}) => {
     const [showLoginDialog, setShowLoginDialog] = React.useState(false);
     const [showRegistrationDialog, setShowRegistrationDialog] = React.useState(false);
     const [showProfileList, setShowProfileList] = React.useState(false);
+    const navigate = useNavigate();
 
     return (
         <Fragment>
@@ -30,8 +29,15 @@ const Navbar = ({currentLang, changeLanguage, token, role}) => {
                             size="large"
                             edge="start"
                             color="inherit"
+                            onClick={() => {
+                                navigate('/');
+                            }}
                         >
-                            <img src='../../assets/logo.png' alt='logo'/>
+                            <img
+                              src='https://cdn-icons-png.flaticon.com/512/7640/7640453.png'
+                              alt='logo'
+                              style={{width: '50px'}}
+                            />
                         </IconButton>
                         <div>
                             <IconButton
@@ -51,36 +57,13 @@ const Navbar = ({currentLang, changeLanguage, token, role}) => {
                     </Toolbar>
                 </AppBar>
             </Box>
-            {showLoginDialog && (
-                <CustomDialog
-                    open={showLoginDialog}
-                    onClose={() => setShowLoginDialog(false)}
-                    title={lang.login.titles.login[currentLang]}
-                >
-                    <LoginForm
-                        setShowRegistrationDialog={() => {
-                            setShowRegistrationDialog(true);
-                            setShowLoginDialog(false);
-                        }}
-                    />
-                </CustomDialog>
-            )}
-            {showRegistrationDialog && (
-                <CustomDialog
-                    open={showRegistrationDialog}
-                    onClose={() => setShowRegistrationDialog(false)}
-                    title={lang.login.titles.registration[currentLang]}
-                >
-                    <RegistrationForm
-                        setShowLoginDialog={() => {
-                            setShowLoginDialog(true);
-                            setShowRegistrationDialog(false);
-                        }}
-                    />
-                </CustomDialog>
-            )}
+            <RegisterLoginDialogs
+                showLoginDialog={showLoginDialog}
+                setShowLoginDialog={setShowLoginDialog}
+                showRegistrationDialog={showRegistrationDialog}
+                setShowRegistrationDialog={setShowRegistrationDialog}
+            />
             {showProfileList && (<ProfileListInfo onClose={() => setShowProfileList(false)}/>)}
-            {role}
         </Fragment>
     )
 };
