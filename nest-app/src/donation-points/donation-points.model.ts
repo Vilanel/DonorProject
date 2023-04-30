@@ -13,13 +13,21 @@ export class DonationPoint extends Model<DonationPoint> {
     })
     id: number;
 
-    @ApiProperty({example: 'Балтійський провулок, 5', description: 'Address'})
+    @ApiProperty({example: 'вулиця Максима Берлинського, 12', description: 'Address'})
     @Column({
         type: DataType.STRING,
         unique: true,
         allowNull: false,
     })
     address: string;
+
+    @ApiProperty({example: 'Kyiv', description: 'City/Town/Village'})
+    @Column({
+        type: DataType.STRING,
+        unique: true,
+        allowNull: false,
+    })
+    city: string;
 
     @ApiProperty({example: '{MN: \'8:00 - 14:00\'; WD: \'8:00 - 15:00\'}', description: 'Business/working Hours'})
     @Column({

@@ -11,4 +11,6 @@ export const loginEndpoint = 'login';
 export const roleNameAdmin = 'ADMIN';
 export const roleNameDonor = 'DONOR';
 
+export const mapboxAccessToken = 'pk.eyJ1IjoibmF0YS0tLSIsImEiOiJjbGd6a3Uxd3YwMGd4M2tvaDg2NjB2c3I2In0.WhRzS1TsDdsJpb0HpBDvFA';
+
 export const errorAlertTimeout = 2000;
