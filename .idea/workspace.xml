@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52f12857-b5a3-4409-9ad2-99e1464e9988" name="Changes" comment="Feat: add donation point model">
-      <change afterPath="$PROJECT_DIR$/react-app/src/AddressField/AddressField.js" afterDir="false" />
+    <list default="true" id="52f12857-b5a3-4409-9ad2-99e1464e9988" name="Changes" comment="Feat: &#10;WEB: add address field with City and address level;&#10;SERVER: add city column to donationPoint Table, add function getAllDonationPoints with search filter">
+      <change afterPath="$PROJECT_DIR$/react-app/src/components/FormikSelectField.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nest-app/src/donation-points/donation-points.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nest-app/src/donation-points/donation-points.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nest-app/src/donation-points/donation-points.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nest-app/src/donation-points/donation-points.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nest-app/src/donation-points/donation-points.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nest-app/src/donation-points/donation-points.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nest-app/src/donation-points/donation-points.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nest-app/src/donation-points/donation-points.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-app/src/AdminRequest/AdminRequest.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/src/AdminRequest/AdminRequest.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-app/src/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/src/Navbar/Navbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-app/src/components/FormikTextField.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/src/components/FormikTextField.js" afterDir="false" />
@@ -136,7 +131,7 @@
       <workItem from="1682667236538" duration="12000" />
       <workItem from="1682772090355" duration="22348000" />
       <workItem from="1682796508101" duration="7000" />
-      <workItem from="1682851964414" duration="14000" />
+      <workItem from="1682851964414" duration="3777000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1682619319274</created>
@@ -166,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682777309362</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Feat: &#10;WEB: add address field with City and address level;&#10;SERVER: add city column to donationPoint Table, add function getAllDonationPoints with search filter">
+      <created>1682852184901</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682852184901</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +190,7 @@
     <MESSAGE value="Web commit" />
     <MESSAGE value="Feat: add mapbox library, edit main page" />
     <MESSAGE value="Feat: add donation point model" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: add donation point model" />
+    <MESSAGE value="Feat: &#10;WEB: add address field with City and address level;&#10;SERVER: add city column to donationPoint Table, add function getAllDonationPoints with search filter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: &#10;WEB: add address field with City and address level;&#10;SERVER: add city column to donationPoint Table, add function getAllDonationPoints with search filter" />
   </component>
 </project>

@@ -12,7 +12,6 @@ import LanguageComponent from "./LanguageComponent";
 import {changeLanguageAction} from "../redux/actions/general";
 import ProfileListInfo from "../Profile/ProfileListInfo";
 import RegisterLoginDialogs from "../Login/RegisterLoginDialogs";
-import AddressField from "../AddressField/AddressField";
 
 
 const Navbar = ({currentLang, changeLanguage, token}) => {
@@ -64,7 +63,6 @@ const Navbar = ({currentLang, changeLanguage, token}) => {
                 showRegistrationDialog={showRegistrationDialog}
                 setShowRegistrationDialog={setShowRegistrationDialog}
             />
-            {/*<AddressField/>*/}
             {showProfileList && (<ProfileListInfo onClose={() => setShowProfileList(false)}/>)}
         </Fragment>
     )

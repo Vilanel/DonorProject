@@ -7,13 +7,12 @@ import {useFormikContext} from "formik";
 
 const FormikTextField = ({currentLang, name, label, defaultValue, ...rest}) => {
     const {values, setFieldValue, errors} = useFormikContext();
-    console.log(values)
 
     React.useEffect(() => {
         if (!_.get(values, name)) {
             setFieldValue(name, defaultValue);
         }
-    }, [defaultValue, name, setFieldValue, values])
+    }, [defaultValue, name, setFieldValue, values]);
 
     return (
         <Fragment>

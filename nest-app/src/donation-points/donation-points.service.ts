@@ -8,9 +8,10 @@ export class DonationPointsService {
     constructor(@InjectModel(DonationPoint) private donationPointsService: typeof DonationPoint) {}
 
     async getAllDonationPoints(searchFilter: string) {
+        const whereObject = searchFilter ? {address: {[Op.like]: `%${searchFilter}%`}} : {};
         return await this.donationPointsService.findAll({
             include: {all: true},
-            where: {address: {[Op.like]: `%${searchFilter}%`}},
+            where: {...whereObject},
         });
     }
 }
