@@ -6,7 +6,9 @@ import {block, input} from "../generalStyles";
 import TextField from "@mui/material/TextField";
 import {connect} from "react-redux";
 
-const FormikSelectField = ({name, label, options, defaultValue, currentLang, ...rest}) => {
+const maxOptionsHeight = 150;
+
+const FormikSelectField = ({name, label, options, defaultValue, currentLang, styles, ...rest}) => {
     const {values, setFieldValue, errors} = useFormikContext();
 
     React.useEffect(() => {
@@ -21,14 +23,19 @@ const FormikSelectField = ({name, label, options, defaultValue, currentLang, ...
             <Autocomplete
                 id={name}
                 options={options}
-                onSelect={e => { setFieldValue(name, e?.target?.value); }}
+                onChange={(e, option) => {
+                    setFieldValue(name, option?.id);
+                }}
+                ListboxProps={{style: {maxHeight: maxOptionsHeight}}}
+                sx={{...input, ...block, ...styles}}
                 disableClearable
                 renderInput={(params) => (
                     <TextField
                         {...params}
                         label={label[currentLang]}
                         value={_.get(values, name)}
-                        sx={{...input, ...block}}
+                        variant="outlined"
+                        fullWidth
                     />
                 )}
                 {...rest}

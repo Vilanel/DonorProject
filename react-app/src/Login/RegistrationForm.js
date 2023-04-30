@@ -25,7 +25,7 @@ const Toolbar = ({currentLang, setShowLoginDialog}) => {
                     onClick={() => setShowLoginDialog()}
                     sx={fullWidth}
                 >
-                    {lang.login.actions.alreadyRegistered[currentLang]}
+                    {lang.login.actions.already_registered[currentLang]}
                 </Button>
             </div>
         </Fragment>
@@ -71,7 +71,7 @@ const RegistrationForm = ({currentLang, setShowLoginDialog, changeToken, changeU
                 />
                 <FormikTextField
                     name="mobileNumber"
-                    label={lang.login.fields.mobileNumber}
+                    label={lang.login.fields.mobile_number}
                     defaultValue='+380'
                 />
                 <FormikTextField

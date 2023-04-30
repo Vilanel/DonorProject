@@ -15,11 +15,13 @@ const BecameDonorInfo = ({currentLang, token, setShowLoginDialog}) => {
     const navigate = useNavigate();
 
     return (
-        <div style={{minWidth: '550px', textAlign: 'center'}}>
-            <Typography style={{textAlign: 'center'}} variant="h4">{lang.main.become_a_donor[currentLang]}</Typography>
+        <div style={{minWidth: '550px', textAlign: 'center', textTransform: 'uppercase'}}>
+            <Typography style={{textAlign: 'center'}} variant="h4">
+                {lang.main.become_a_donor[currentLang]}
+            </Typography>
             <br/>
             <Typography style={{color: 'black', textAlign: 'center'}} variant="h7">{lang.main.you_can_save_life[currentLang]}</Typography><br/>
-            <Typography style={{color: 'black', textAlign: 'center'}} variant="h7">{lang.main.sign_up_for_bloood_donation[currentLang]}</Typography><br/>
+            <Typography style={{color: 'black', textAlign: 'center'}} variant="h7">{lang.main.sign_up_for_blood_donation[currentLang]}</Typography><br/>
             <br/>
             <div style={{marginRight: '10px', display: 'inline'}}>
                 <Button variant="contained">
@@ -50,7 +52,7 @@ const BecameDonorInfo = ({currentLang, token, setShowLoginDialog}) => {
 
 const JoinProjectInfo = ({currentLang, token, setShowLoginDialog}) => {
     return (
-        <div style={{minWidth: '450px', textAlign: 'center'}}>
+        <div style={{minWidth: '450px', textAlign: 'center', textTransform: 'uppercase'}}>
             {token ? (
                 <Typography variant="h4">
                     {lang.main.thank_you[currentLang]} &#x2764;
@@ -59,8 +61,12 @@ const JoinProjectInfo = ({currentLang, token, setShowLoginDialog}) => {
                 <Typography variant="h4">{lang.main.join_the_project[currentLang]}</Typography>
             )}
             <br/>
-            <Typography style={{color: 'black'}} variant="h7">{lang.main.join_the_project_helps[currentLang]}</Typography><br/>
-            <Typography style={{color: 'black'}} variant="h7">{lang.main.effectively_attract_donors[currentLang]}</Typography><br/>
+            <Typography style={{color: 'black'}} variant="h7">
+                {lang.main.join_the_project_helps[currentLang]}
+            </Typography><br/>
+            <Typography style={{color: 'black'}} variant="h7">
+                {lang.main.effectively_attract_donors[currentLang]}
+            </Typography><br/>
             <br/>
             {!token && (
                 <div style={{display: 'inline', justifyContent: 'center', marginRight: '10px', marginLeft: '10px', width: '350px'}}>
@@ -80,7 +86,7 @@ const JoinProjectInfo = ({currentLang, token, setShowLoginDialog}) => {
 
 const SocialNetworkInfo = ({currentLang}) => {
     return (
-        <div style={{marginTop: '110px', minWidth: '450px', textAlign: 'center'}}>
+        <div style={{marginTop: '110px', minWidth: '450px', textAlign: 'center', textTransform: 'uppercase'}}>
             <br/>
             <Typography variant="h4">{lang.main.follow_us[currentLang]}</Typography>
             <br/>
@@ -93,7 +99,7 @@ const SocialNetworkInfo = ({currentLang}) => {
             <div style={{marginRight: '20px', display: 'inline'}}>
                 <Button variant="contained">
                     <FacebookIcon style={{marginRight: '10px'}}/>
-                    {lang.main.faceBook[currentLang]}
+                    {lang.main.facebook[currentLang]}
                 </Button>
             </div>
             <br/><br/>
@@ -112,13 +118,13 @@ const Main = ({currentLang, token, role}) => {
     const [showRegistrationDialog, setShowRegistrationDialog] = React.useState(false);
 
     return (
-        <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', textTransform: 'uppercase', color: '#1976d2', marginTop: '100px', fontFamily: 'Verdana'}}>
+        <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', color: '#1976d2', marginTop: '100px', fontFamily: 'Verdana'}}>
             {role === roleNameAdmin ? (
                 <Fragment>
                     <div>
                         <AdminRequest/>
                     </div>
-                    <div>
+                    <div style={{textTransform: 'uppercase'}}>
                         <JoinProjectInfo currentLang={currentLang} token={token} setShowLoginDialog={setShowLoginDialog}/>
                         <div style={{minWidth: '550px', textAlign: 'center'}}>
                             <img

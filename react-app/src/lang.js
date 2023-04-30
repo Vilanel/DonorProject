@@ -39,7 +39,7 @@ export const lang = {
                 en: 'Last Name',
                 uk: 'Прізвище',
             },
-            mobileNumber: {
+            mobile_number: {
                 en: 'Mobile Number',
                 uk: 'Номер телефону',
             },
@@ -57,7 +57,7 @@ export const lang = {
                 en: 'Registration',
                 uk: 'Зареєструватися',
             },
-            alreadyRegistered: {
+            already_registered: {
                 en: 'I have already registered',
                 uk: 'Я вже зареєстрований',
             },
@@ -84,7 +84,7 @@ export const lang = {
             en: 'You can save someone’s life by donating blood!',
             uk: 'Ти можеш врятувати життя здавши кров!',
         },
-        sign_up_for_bloood_donation: {
+        sign_up_for_blood_donation: {
             en: 'Sign up for bloood donation today!',
             uk: 'Запишись на здачу крові вже сьогодні!',
         },
@@ -109,7 +109,7 @@ export const lang = {
             uk: 'Приєднання до проєкту допоможе швидко',
         },
         effectively_attract_donors: {
-            en: 'and effectively attract donors to giving',
+            en: 'and effectively attract donors',
             uk: 'та ефективно залучити донорів до здачі',
         },
         join: {
@@ -124,13 +124,77 @@ export const lang = {
             en: 'Telegram',
             uk: 'Telegram',
         },
-        faceBook: {
-            en: 'FaceBook',
-            uk: 'FaceBook',
+        facebook: {
+            en: 'Facebook',
+            uk: 'Facebook',
         },
         twitter: {
             en: 'Twitter',
             uk: 'Twitter',
         }
-    }
+    },
+    adminRequest: {
+        titles: {
+            automatic_request: {
+                en: 'Request for automatic donors involvement',
+                uk: 'Запит для автоматичного залучення донорів',
+            },
+            automatic_request_subtitle: {
+                uk: 'Заповніть поля та надішліть запит для того щоб наш ресурс автоматично залучив донорів відповідно до ваших вимог',
+                en: 'Fill in the fields and send a request so that our resource automatically attracts donors according to your requirements',
+            }
+        },
+        actions: {
+            send_request: {
+                en: 'Send request',
+                uk: 'Надіслати запит',
+            }
+        },
+        fields: {
+            blood_donation_center: {
+                en: 'Blood donation center',
+                uk: 'Пункт здачі крові',
+            },
+            blood_type: {
+                en: 'Blood type',
+                uk: 'Група крові',
+            },
+            donation_type: {
+                en: 'Donation type',
+                uk: 'Тип донорства',
+            },
+            blood_amount: {
+                en: 'Amount of blood (in liters)',
+                uk: 'Кількість крові (в літрах)',
+            },
+        },
+        options: {
+            donationTypes: {
+                whole_blood_donation: {
+                    en: 'Whole blood donation',
+                    uk: 'Донорство цільної крові',
+                },
+                plasma_donation: {
+                    en: 'Plasma donation',
+                    uk: 'Донорство плазми',
+                },
+                plasmapheresis: {
+                    en: 'Plasmapheresis',
+                    uk: 'Плазмаферез',
+                },
+                platelet_donation: {
+                    en: 'Platelet donation',
+                    uk: 'Донорство тромбоцитів',
+                },
+                plateletpheresis: {
+                    en: 'Plateletpheresis',
+                    uk: 'Тромбоцитаферез',
+                },
+                erythrocyte_donation: {
+                    en: 'Erythrocyte donation',
+                    uk: 'Донорство еритроцитів',
+                },
+            },
+        },
+    },
 }
